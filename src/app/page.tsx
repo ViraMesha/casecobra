@@ -2,7 +2,14 @@ import Image from "next/image";
 import { Check, Star } from "lucide-react";
 
 import { users } from "@/constants";
-import { MaxWidthWrapper, Phone, StarRating, UserImages } from "@/components";
+import {
+  Icons,
+  MaxWidthWrapper,
+  Phone,
+  Reviews,
+  StarRating,
+  UserImages,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -47,7 +54,15 @@ export default function Home() {
               </ul>
               <div className="mt-12 flex flex-col sm:flex-row items-center sm:items-start gap-5">
                 <UserImages users={users} />
-                <StarRating />
+                <div className="flex flex-col justify-between items-center sm:items-start">
+                  <StarRating
+                    starStyles="w-4 h-4"
+                    containerStyles="flex gap-0.5"
+                  />
+                  <p>
+                    <span className="font-semibold">1.250</span> happy customers
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -73,6 +88,8 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
+      {/* value proposition section */}
+      <Reviews />
     </div>
   );
 }

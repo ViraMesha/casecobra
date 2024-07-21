@@ -31,3 +31,9 @@ declare type PhoneProps = React.HTMLAttributes<HTMLDivElement> & {
   imgSrc: string;
   darkMode?: boolean;
 };
+
+declare type StarRatingProps = React.HTMLAttributes<HTMLDivElement> & {
+  containerStyles: string;
+  starStyles: string;
+  starsNumber?: number;
+};
