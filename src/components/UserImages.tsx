@@ -11,6 +11,7 @@ export const UserImages = ({
         const { src, alt } = user;
         return (
           <Image
+            priority
             key={index}
             src={src}
             alt={alt}

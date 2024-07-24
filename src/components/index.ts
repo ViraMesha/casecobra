@@ -4,4 +4,8 @@ export { StarRating } from "./StarRating";
 export { Phone } from "./Phone";
 export { Navbar } from "./Navbar";
 export { Icons } from "./Icons";
+export { Testimonials } from "./Testimonials";
 export { Reviews } from "./Reviews";
+export { ReviewGrid } from "./ReviewGrid";
+export { ReviewColumn } from "./ReviewColumn";
+export { Review } from "./Review";

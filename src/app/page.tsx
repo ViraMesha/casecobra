@@ -6,7 +6,7 @@ import {
   Icons,
   MaxWidthWrapper,
   Phone,
-  Reviews,
+  Testimonials,
   StarRating,
   UserImages,
 } from "@/components";
@@ -20,11 +20,12 @@ export default function Home() {
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
                 <Image
+                  priority
                   src="/snake-1.png"
                   width={112}
                   height={145}
                   alt="snake"
-                  className="w-full"
+                  className="w-full h-auto"
                 />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
@@ -69,6 +70,7 @@ export default function Home() {
           <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
             <div className="relative md:max-w-xl">
               <Image
+                priority
                 src="/your-image.png"
                 alt=""
                 width={160}
@@ -77,6 +79,7 @@ export default function Home() {
                 className="absolute w-40 xl:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block"
               />
               <Image
+                priority
                 src="/line.png"
                 alt=""
                 width={80}
@@ -89,7 +92,7 @@ export default function Home() {
         </MaxWidthWrapper>
       </section>
       {/* value proposition section */}
-      <Reviews />
+      <Testimonials />
     </div>
   );
 }

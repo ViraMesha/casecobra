@@ -37,3 +37,14 @@ declare type StarRatingProps = React.HTMLAttributes<HTMLDivElement> & {
   starStyles: string;
   starsNumber?: number;
 };
+
+declare type ReviewColumnProps = {
+  reviews: string[];
+  className?: string;
+  reviewClassName?: (reviewIndex: number) => string;
+  msPerPixel?: number;
+};
+
+declare type ReviewProps = React.HTMLAttributes<HTMLDivElement> & {
+  imgSrc: string;
+};

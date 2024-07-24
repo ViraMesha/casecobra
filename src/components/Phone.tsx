@@ -16,6 +16,7 @@ export const Phone = ({
       {...props}
     >
       <Image
+        priority
         width={253}
         height={523}
         src={
@@ -28,6 +29,7 @@ export const Phone = ({
       />
       <div className="absolute -z-10 inset-0">
         <Image
+          priority
           width={253}
           height={523}
           className="object-cover"
