@@ -9,3 +9,5 @@ export { Reviews } from "./Reviews";
 export { ReviewGrid } from "./ReviewGrid";
 export { ReviewColumn } from "./ReviewColumn";
 export { Review } from "./Review";
+export { PhotoUpload } from "./PhotoUpload";
+export { SectionTitle } from "./SectionTitle";

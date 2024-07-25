@@ -48,3 +48,11 @@ declare type ReviewColumnProps = {
 declare type ReviewProps = React.HTMLAttributes<HTMLDivElement> & {
   imgSrc: string;
 };
+
+declare type SectionTitleProps = React.HTMLAttributes<HTMLHeadingElement> & {
+  title: string;
+  highlightedText: string;
+  highlightColor?: string;
+  hasUnderline?: boolean;
+  spanStyles?: string;
+};

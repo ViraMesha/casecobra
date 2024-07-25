@@ -9,6 +9,7 @@ import {
   Testimonials,
   StarRating,
   UserImages,
+  PhotoUpload,
 } from "@/components";
 
 export default function Home() {
@@ -91,8 +92,8 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
-      {/* value proposition section */}
       <Testimonials />
+      <PhotoUpload />
     </div>
   );
 }
