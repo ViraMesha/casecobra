@@ -8,3 +8,4 @@ export { Testimonials } from "./Testimonials";
 export { Reviews } from "./Reviews/Reviews";
 export { PhotoUpload } from "./PhotoUpload";
 export { SectionTitle } from "./SectionTitle";
+export { Footer } from "./Footer";
