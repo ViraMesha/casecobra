@@ -16,7 +16,7 @@ export const Review = ({ imgSrc, className, ...props }: ReviewProps) => {
       style={{ animationDelay }}
       {...props}
     >
-      <Phone imgSrc={imgSrc} />
+      <Phone imgSrc={imgSrc} className="rounded-[2.25rem]" />
     </div>
   );
 };
