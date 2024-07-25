@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { MaxWidthWrapper, ReviewGrid } from "./index";
+import { MaxWidthWrapper } from "../index";
+import { ReviewGrid } from "./index";
 
 export const Reviews = () => {
   return (

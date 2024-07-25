@@ -1,6 +1,6 @@
 import { POSSIBLE_ANIMATIONS_DELAYS } from "@/constants";
 import { cn } from "@/lib/utils";
-import { Phone } from "./index";
+import { Phone } from "../index";
 
 export const Review = ({ imgSrc, className, ...props }: ReviewProps) => {
   const animationDelay =
